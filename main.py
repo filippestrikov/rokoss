@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "8603652426:AAEinHUFhq_AT55AH5KbAdB4sA9NtWg5-98"
 
 jokes = [
     "Видел бус — сделал вид, что это просто маршрутка судьбы.",
