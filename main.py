@@ -198,7 +198,7 @@ async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.lower()
     message_counter += 1
 
-    if message_counter % 10 != 0:
+    if message_counter % 2 != 0:
         return
 
     if "смех" in text:
